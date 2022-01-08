@@ -46,13 +46,13 @@
 \def\printdayname#1{\hfil\textsc{#1}\hfil}
 
 \newcommand{\dayname}[1]{
-  \ifnum#1=1 Senin\else
-  \ifnum#1=2 Selasa\else
-  \ifnum#1=3 Rabu\else
-  \ifnum#1=4 Kamis\else
-  \ifnum#1=5 Jumat\else
-  \ifnum#1=6 Sabtu\else
-  \ifnum#1=7 Minggu\else
+  \ifnum#1=1 Minggu\else
+  \ifnum#1=2 Senin\else
+  \ifnum#1=3 Selasa\else
+  \ifnum#1=4 Rabu\else
+  \ifnum#1=5 Kamis\else
+  \ifnum#1=6 Jumat\else
+  \ifnum#1=7 Sabtu\else
     \PackageError{calendar}{Unrecognized day number: #1!}
   \fi\fi\fi\fi\fi\fi\fi
 }
