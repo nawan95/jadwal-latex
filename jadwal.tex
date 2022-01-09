@@ -1,0 +1,62 @@
+\documentclass[12pt]{article}
+\usepackage{calendar}
+\usepackage[landscape, a4paper, margin=1cm]{geometry}
+\usepackage{palatino}
+\usepackage{datetime}
+\begin{document}
+	\pagestyle{empty} % Menghapus nomor halaman
+	\setlength{\parindent}{0pt} % Mematikan indentasi paragraf
+	\StartingDayNumber=2 % Urutan mulai hari, nilai 1 untuk Minggu dan 2 untuk Senin
+	
+	%------------JUDUL-----------%
+	\begin{center}
+		\textbf{\LARGE Jadwal Mata Kuliah} \\
+		\textsc{\Large Semester 1}
+	\end{center}
+	
+	%------------MULAI HARI---------------%
+	\begin{calendar}{\textwidth}
+		\day{}{
+		\textbf{\formattime{7}{30}{0} - \formattime{9}{10}{0}} \daysep BAHASA INGGRIS \timesep
+		\textbf{\formattime{9}{15}{0} - \formattime{11}{0}{0}} \daysep PANCASILA \timesep
+		\textbf{\formattime{11}{10}{0} - \formattime{12}{50}{0}} \daysep TRANSFORMASI DIGITAL \timesep
+	}
+
+	%------------HARI SELASA--------------%
+
+		\day{}{
+		\textbf{\formattime{9}{20}{0} - \formattime{11}{0}{0}} \daysep DASAR-DASAR ILMU SOSIAL \timesep
+		\textbf{\formattime{11}{20}{0} - \formattime{13}{0}{0}} \daysep BAHASA INDONESIA \timesep
+	}
+
+	%------------HARI RABU----------------%
+	
+		\day{}{
+		\textbf{\formattime{7}{30}{0} - \formattime{9}{10}{0}} \daysep PENDIDIKAN KARAKTER DAN ETIKA \timesep
+		\textbf{\formattime{9}{20}{0} - \formattime{11}{0}{0}} \daysep FILSAFAT ILMU \timesep
+		\textbf{\formattime{11}{10}{0} - \formattime{12}{50}{0}} \daysep PENDIDIKAN INKLUSI \timesep
+	}
+
+	%------------HARI KAMIS---------------%
+		
+		\day{}{
+		\textbf{\formattime{7}{30}{0} - \formattime{9}{10}{0}} \daysep PSIKOLOGI PENDIDIKAN \timesep
+		\textbf{\formattime{9}{20}{0} - \formattime{11}{0}{0}} \daysep STATISTIKA \timesep
+		\textbf{\formattime{11}{10}{0} - \formattime{12}{50}{0}} \daysep ILMU PENDIDIKAN \timesep
+	}
+
+	%------------HARI JUMAT---------------%
+		
+		\day{}{}
+		
+	%------------HARI SABTU---------------%
+	
+		\day{}{}
+		
+	%------------HARI MINGGU--------------%
+	
+		\day{}{}
+
+\finishCalendar
+\end{calendar}
+\end{document}
