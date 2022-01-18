@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # jadwal-latex
 [![Compile LaTeX](https://github.com/nawan95/jadwal-latex/actions/workflows/compileandrelease.yml/badge.svg)](https://github.com/nawan95/jadwal-latex/actions/workflows/compileandrelease.yml)
 
